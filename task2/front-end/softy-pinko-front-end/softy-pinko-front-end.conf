@@ -1,0 +1,9 @@
+server {
+    listen 9000;
+    server_name localhost;
+
+    location / {
+        root /var/www/html/softy-pinko-front-end;
+        index index.html;
+    }
+}
